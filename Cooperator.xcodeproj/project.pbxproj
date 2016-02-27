@@ -14,6 +14,21 @@
 		8F852F581C81F9DA005D361B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F852F561C81F9DA005D361B /* LaunchScreen.storyboard */; };
 		8F852F631C81F9DA005D361B /* CooperatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F852F621C81F9DA005D361B /* CooperatorTests.swift */; };
 		8F852F6E1C81F9DA005D361B /* CooperatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F852F6D1C81F9DA005D361B /* CooperatorUITests.swift */; };
+		8F852F971C820F28005D361B /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F852F921C820F28005D361B /* SwiftyJSON.framework */; };
+		8F852F981C820F28005D361B /* SVProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F852F931C820F28005D361B /* SVProgressHUD.framework */; };
+		8F852F991C820F28005D361B /* WebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F852F941C820F28005D361B /* WebImage.framework */; };
+		8F852F9A1C820F28005D361B /* KeychainAccess.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F852F951C820F28005D361B /* KeychainAccess.framework */; };
+		8F852F9B1C820F28005D361B /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F852F961C820F28005D361B /* Alamofire.framework */; };
+		8F852F9C1C820F35005D361B /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F852F921C820F28005D361B /* SwiftyJSON.framework */; };
+		8F852F9D1C820F35005D361B /* SwiftyJSON.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8F852F921C820F28005D361B /* SwiftyJSON.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8F852F9E1C820F35005D361B /* SVProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F852F931C820F28005D361B /* SVProgressHUD.framework */; };
+		8F852F9F1C820F35005D361B /* SVProgressHUD.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8F852F931C820F28005D361B /* SVProgressHUD.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8F852FA01C820F35005D361B /* WebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F852F941C820F28005D361B /* WebImage.framework */; };
+		8F852FA11C820F36005D361B /* WebImage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8F852F941C820F28005D361B /* WebImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8F852FA21C820F36005D361B /* KeychainAccess.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F852F951C820F28005D361B /* KeychainAccess.framework */; };
+		8F852FA31C820F36005D361B /* KeychainAccess.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8F852F951C820F28005D361B /* KeychainAccess.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8F852FA41C820F36005D361B /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F852F961C820F28005D361B /* Alamofire.framework */; };
+		8F852FA51C820F36005D361B /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8F852F961C820F28005D361B /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +48,24 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		8F852FA61C820F36005D361B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				8F852FA11C820F36005D361B /* WebImage.framework in Embed Frameworks */,
+				8F852F9F1C820F35005D361B /* SVProgressHUD.framework in Embed Frameworks */,
+				8F852FA31C820F36005D361B /* KeychainAccess.framework in Embed Frameworks */,
+				8F852FA51C820F36005D361B /* Alamofire.framework in Embed Frameworks */,
+				8F852F9D1C820F35005D361B /* SwiftyJSON.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		8F852F4A1C81F9D9005D361B /* Cooperator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cooperator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F852F4D1C81F9D9005D361B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +80,11 @@
 		8F852F691C81F9DA005D361B /* CooperatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CooperatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F852F6D1C81F9DA005D361B /* CooperatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CooperatorUITests.swift; sourceTree = "<group>"; };
 		8F852F6F1C81F9DA005D361B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F852F921C820F28005D361B /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
+		8F852F931C820F28005D361B /* SVProgressHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SVProgressHUD.framework; path = Carthage/Build/iOS/SVProgressHUD.framework; sourceTree = "<group>"; };
+		8F852F941C820F28005D361B /* WebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebImage.framework; path = Carthage/Build/iOS/WebImage.framework; sourceTree = "<group>"; };
+		8F852F951C820F28005D361B /* KeychainAccess.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KeychainAccess.framework; path = Carthage/Build/iOS/KeychainAccess.framework; sourceTree = "<group>"; };
+		8F852F961C820F28005D361B /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +92,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F852F9E1C820F35005D361B /* SVProgressHUD.framework in Frameworks */,
+				8F852F971C820F28005D361B /* SwiftyJSON.framework in Frameworks */,
+				8F852F981C820F28005D361B /* SVProgressHUD.framework in Frameworks */,
+				8F852FA41C820F36005D361B /* Alamofire.framework in Frameworks */,
+				8F852F9C1C820F35005D361B /* SwiftyJSON.framework in Frameworks */,
+				8F852F991C820F28005D361B /* WebImage.framework in Frameworks */,
+				8F852F9A1C820F28005D361B /* KeychainAccess.framework in Frameworks */,
+				8F852FA21C820F36005D361B /* KeychainAccess.framework in Frameworks */,
+				8F852F9B1C820F28005D361B /* Alamofire.framework in Frameworks */,
+				8F852FA01C820F35005D361B /* WebImage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +125,11 @@
 		8F852F411C81F9D9005D361B = {
 			isa = PBXGroup;
 			children = (
+				8F852F921C820F28005D361B /* SwiftyJSON.framework */,
+				8F852F931C820F28005D361B /* SVProgressHUD.framework */,
+				8F852F941C820F28005D361B /* WebImage.framework */,
+				8F852F951C820F28005D361B /* KeychainAccess.framework */,
+				8F852F961C820F28005D361B /* Alamofire.framework */,
 				8F852F4C1C81F9D9005D361B /* Cooperator */,
 				8F852F611C81F9DA005D361B /* CooperatorTests */,
 				8F852F6C1C81F9DA005D361B /* CooperatorUITests */,
@@ -135,6 +188,8 @@
 				8F852F461C81F9D9005D361B /* Sources */,
 				8F852F471C81F9D9005D361B /* Frameworks */,
 				8F852F481C81F9D9005D361B /* Resources */,
+				8F852FA61C820F36005D361B /* Embed Frameworks */,
+				8F852FA81C820F7F005D361B /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -250,6 +305,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8F852FA81C820F7F005D361B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8F852F461C81F9D9005D361B /* Sources */ = {
@@ -397,6 +468,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Cooperator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.koganepj.Cooperator;
@@ -408,6 +483,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Cooperator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.koganepj.Cooperator;
