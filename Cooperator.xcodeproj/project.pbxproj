@@ -16,6 +16,12 @@
 		8F852F6E1C81F9DA005D361B /* CooperatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F852F6D1C81F9DA005D361B /* CooperatorUITests.swift */; };
 		8F852FB81C85DDEB005D361B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F852FB71C85DDEB005D361B /* libPods.a */; };
 		8F852FBB1C85DE7B005D361B /* Empty.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F852FBA1C85DE7B005D361B /* Empty.m */; };
+		8F852FC01C874069005D361B /* Koloda.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F852FBE1C874069005D361B /* Koloda.framework */; };
+		8F852FC11C874069005D361B /* pop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F852FBF1C874069005D361B /* pop.framework */; };
+		8F852FC21C87414F005D361B /* Koloda.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F852FBE1C874069005D361B /* Koloda.framework */; };
+		8F852FC31C87414F005D361B /* Koloda.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8F852FBE1C874069005D361B /* Koloda.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8F852FC41C87414F005D361B /* pop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F852FBF1C874069005D361B /* pop.framework */; };
+		8F852FC51C87414F005D361B /* pop.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8F852FBF1C874069005D361B /* pop.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,21 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		8F852FC61C87414F005D361B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				8F852FC51C87414F005D361B /* pop.framework in Embed Frameworks */,
+				8F852FC31C87414F005D361B /* Koloda.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		350CAD4E94B8B30D99F8205B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		8F852F4A1C81F9D9005D361B /* Cooperator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cooperator.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -50,14 +71,11 @@
 		8F852F691C81F9DA005D361B /* CooperatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CooperatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F852F6D1C81F9DA005D361B /* CooperatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CooperatorUITests.swift; sourceTree = "<group>"; };
 		8F852F6F1C81F9DA005D361B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8F852F921C820F28005D361B /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
-		8F852F931C820F28005D361B /* SVProgressHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SVProgressHUD.framework; path = Carthage/Build/iOS/SVProgressHUD.framework; sourceTree = "<group>"; };
-		8F852F941C820F28005D361B /* WebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebImage.framework; path = Carthage/Build/iOS/WebImage.framework; sourceTree = "<group>"; };
-		8F852F951C820F28005D361B /* KeychainAccess.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KeychainAccess.framework; path = Carthage/Build/iOS/KeychainAccess.framework; sourceTree = "<group>"; };
-		8F852F961C820F28005D361B /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 		8F852FB71C85DDEB005D361B /* libPods.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPods.a; path = "Pods/../build/Debug-iphoneos/libPods.a"; sourceTree = "<group>"; };
 		8F852FB91C85DE7A005D361B /* Cooperator-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Cooperator-Bridging-Header.h"; sourceTree = "<group>"; };
 		8F852FBA1C85DE7B005D361B /* Empty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Empty.m; sourceTree = "<group>"; };
+		8F852FBE1C874069005D361B /* Koloda.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Koloda.framework; path = Carthage/Build/iOS/Koloda.framework; sourceTree = "<group>"; };
+		8F852FBF1C874069005D361B /* pop.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = pop.framework; path = Carthage/Build/iOS/pop.framework; sourceTree = "<group>"; };
 		A26AAD65972DBC527676D8D3 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		A4D9D1218129FEFEE118D851 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -67,6 +85,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F852FC01C874069005D361B /* Koloda.framework in Frameworks */,
+				8F852FC11C874069005D361B /* pop.framework in Frameworks */,
+				8F852FC41C87414F005D361B /* pop.framework in Frameworks */,
+				8F852FC21C87414F005D361B /* Koloda.framework in Frameworks */,
 				8F852FB81C85DDEB005D361B /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -100,6 +122,8 @@
 		33DF315CE8F56E01579816FD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8F852FBE1C874069005D361B /* Koloda.framework */,
+				8F852FBF1C874069005D361B /* pop.framework */,
 				8F852FB71C85DDEB005D361B /* libPods.a */,
 				A4D9D1218129FEFEE118D851 /* libPods.a */,
 			);
@@ -109,11 +133,6 @@
 		8F852F411C81F9D9005D361B = {
 			isa = PBXGroup;
 			children = (
-				8F852F921C820F28005D361B /* SwiftyJSON.framework */,
-				8F852F931C820F28005D361B /* SVProgressHUD.framework */,
-				8F852F941C820F28005D361B /* WebImage.framework */,
-				8F852F951C820F28005D361B /* KeychainAccess.framework */,
-				8F852F961C820F28005D361B /* Alamofire.framework */,
 				8F852F4C1C81F9D9005D361B /* Cooperator */,
 				8F852F611C81F9DA005D361B /* CooperatorTests */,
 				8F852F6C1C81F9DA005D361B /* CooperatorUITests */,
@@ -180,6 +199,7 @@
 				8F852FA81C820F7F005D361B /* ShellScript */,
 				4161D3E752014A52F5947B73 /* Embed Pods Frameworks */,
 				B8489933B2977298370A1DAC /* Copy Pods Resources */,
+				8F852FC61C87414F005D361B /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
